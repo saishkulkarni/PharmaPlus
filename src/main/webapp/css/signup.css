@@ -1,0 +1,113 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#parent {
+	display: flex;
+	justify-content: end;
+	background-color: rgba(27, 27, 27, 2);
+	height: 50px;
+	width: 100%;
+	position: sticky;
+	top: 0px;
+	z-index: 2;
+	align-items: center;
+}
+
+.admin {
+	color: beige;
+	position: relative;
+	left: -20px;
+}
+
+.admin:hover {
+	color: red;
+}
+
+.parent1 {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	height: 100px;
+	align-items: center;
+	position: sticky;
+	top: 50px;
+	z-index: 10
+}
+
+.child1 {
+	color: white;
+	position: relative;
+	left: -15rem;
+}
+
+#child2 {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
+    form{
+        border: 2px solid;
+        /* position: relative;
+        left: 27em;
+        top: 5em; */
+        width: 25em;
+        height: 33em;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        border-radius: 1em;
+        background-color: bisque;
+
+    }
+    .header{
+        height: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -10px;
+        border-radius: 10px;
+    
+        
+        background-color: deepskyblue;
+        /* text-align: center;
+        border-top-right-radius: 0.5em;
+        border-top-left-radius: 0.5em; */
+        
+    }
+
+    .td1{
+        text-align: right;
+        position: relative;
+        /* left: -1em; */
+    }
+
+    .cancel{
+        background-color: red;
+         position: relative; 
+         left: -4em; top: 1.5em;
+          border: white; height: 2em;
+          width: 7em; border-radius: 1em;
+          
+    }
+
+    .reg{
+        position: relative;
+         left: 2em;
+          background-color:cornflowerblue;
+           border: white;
+            height: 2em; width: 7em; 
+            top: 1em;
+             border-radius: 1em;
+    }
+    .bodycentre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+    }
